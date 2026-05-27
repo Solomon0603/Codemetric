@@ -28,5 +28,66 @@ Chatbot: Hello there! How can I help you today?
 You: who are you?
 Chatbot: I am TaskBot, a simple rule-based chatbot created in Python.
 You: exit
+# Task 2: Tic Tac Toe with Minimax AI
+
+This folder contains an unbeatable Tic Tac Toe game. It uses the Minimax algorithm.
+
+## 🚀 Key Features
+
+*   **Minimax Algorithm** — AI never loses a single game.
+*   **Backtracking Logic** — Simulates all possible future moves.
+*   **Input Sanitation** — Catches typos and invalid grid choices.
+*   **Replay Loop** — Allows playing consecutive matches smoothly.
+
+---
+
+## 💻 How to Run
+
+1. Open your terminal window.
+2. Move into this specific project folder:
+   ```bash
+   cd Task_2_Tic_TacToe
+   ```
+3. Run the game script:
+   ```bash
+   python tictactoe.py
+   ```
+
+---
+
+## 📊 Sample Gameplay Output
+
+```text
+
+   |   |   
+---+---+---
+
+   |   |   
+---+---+---
+
+   |   |   
+
+Enter your move (1-9): 5
+
+
+   |   |   
+---+---+---
+
+   | X |   
+---+---+---
+
+   |   |   
+
+Computer is thinking...
+
+ O |   |   
+---+---+---
+
+   | X |   
+---+---+---
+
+   |   |   
+```
+
 Chatbot: Goodbye! Have a great day!
 ```
