@@ -5,7 +5,7 @@ This repository houses the projects completed during my 4-week Artificial Intell
 ## 🚀 Project Tracking
 
 *   **Task 1: Rule-Based Chatbot** — ✅ Completed
-*   **Task 2:** — ⏳ Pending
+*   **Task 2:** — * **Task 2: Tic Tac Toe with Minimax** — ✅ Completed
 *   **Task 3:** — ⏳ Pending
 
 ---
