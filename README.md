@@ -1,93 +1,55 @@
 # Codmetric Artificial Intelligence Internship
 
-This repository houses the projects completed during my 4-week Artificial Intelligence Internship Program at **Codmetric**.
+This repository houses all projects and tasks completed during my 4-week Artificial Intelligence Internship Program at **Codmetric**. It demonstrates core concepts in artificial intelligence, search algorithms, control structures, and rule-based expert systems using Python.
 
-## 🚀 Project Tracking
+## 🚀 Project Tracking Dashboard
 
-*   **Task 1: Rule-Based Chatbot** — ✅ Completed
-*   **Task 2:** — * **Task 2: Tic Tac Toe with Minimax** — ✅ Completed
-*   **Task 3:** — ⏳ Pending
+
+| Task ID | Project Name | Description | Status |
+| :--- | :--- | :--- | :--- |
+| **Task 1** | Rule-Based Chatbot | Standard console assistant utilizing structured control flow logic hierarchies. | ✅ Completed |
+| **Task 2** | Tic Tac Toe with Minimax | Unbeatable game engine using recursive backtracking search algorithms. | ✅ Completed |
+| **Task 3** | Expert System for Diagnosis | Hardware/Software diagnostic engine with full logical reasoning output trees. | ✅ Completed |
 
 ---
 
 ## 🤖 Task 1: Rule-Based Chatbot
 
 ### 📋 Description
-A console-based Python chatbot that utilizes conditional `if-elif-else` logic to process user greetings, answer basic questions, handle unrecognized inputs gracefully, and exit on command.
+A interactive Python console application using sequential conditional logic structures (`if-elif-else`) to parse and respond to user inputs. It applies input token cleaning strategies (`.strip().lower()`) to match keywords case-insensitively and handles unexpected queries via a secure fallback string catcher.
 
 ### 💻 How to Run
 ```bash
-python main.py
+python Task_1_Rule_Based_Chatbot/main.py
 ```
-
-### 💬 Sample Log
-```text
-Chatbot: Hello! I am a rule-based assistant. Type 'exit' or 'bye' to quit.
-You: hi
-Chatbot: Hello there! How can I help you today?
-You: who are you?
-Chatbot: I am TaskBot, a simple rule-based chatbot created in Python.
-You: exit
-# Task 2: Tic Tac Toe with Minimax AI
-
-This folder contains an unbeatable Tic Tac Toe game. It uses the Minimax algorithm.
-
-## 🚀 Key Features
-
-*   **Minimax Algorithm** — AI never loses a single game.
-*   **Backtracking Logic** — Simulates all possible future moves.
-*   **Input Sanitation** — Catches typos and invalid grid choices.
-*   **Replay Loop** — Allows playing consecutive matches smoothly.
 
 ---
 
-## 💻 How to Run
+## ❌ Task 2: Tic Tac Toe with Minimax AI
 
-1. Open your terminal window.
-2. Move into this specific project folder:
-   ```bash
-   cd Task_2_Tic_TacToe
-   ```
-3. Run the game script:
-   ```bash
-   python tictactoe.py
-   ```
+### 📋 Description
+An adversarial search game application powered by a recursive **Minimax Algorithm**. The computer looks ahead to calculate every possible outcome on the game tree, maximizing its score while minimizing yours to create an absolutely unbeatable opponent. Features include robust move boundary limits and multi-round replays.
+
+### 💻 How to Run
+```bash
+python Task_2_Tic_TacToe/tictactoe.py
+```
 
 ---
 
-## 📊 Sample Gameplay Output
+## 🔍 Task 3: Expert System for Diagnosis
 
-```text
+### 📋 Description
+A professional knowledge-based expert system applied to computer hardware and software troubleshooting. It queries user symptoms through interactive terminal flags, filters input criteria through complex boolean truth checks, and prints accurate failure identifications coupled with detailed, structural reasoning blocks.
 
-   |   |   
----+---+---
-
-   |   |   
----+---+---
-
-   |   |   
-
-Enter your move (1-9): 5
-
-
-   |   |   
----+---+---
-
-   | X |   
----+---+---
-
-   |   |   
-
-Computer is thinking...
-
- O |   |   
----+---+---
-
-   | X |   
----+---+---
-
-   |   |   
+### 💻 How to Run
+```bash
+python Task_3_Expert_System/expert_system.py
 ```
 
-Chatbot: Goodbye! Have a great day!
-```
+---
+
+## 🛠️ Key Technologies Used
+* **Language:** Python 3.x
+* **AI Concepts:** Rule-Based AI, Minimax Optimization, Backtracking Algorithms, Decision Trees
+* **Version Control:** Git & GitHub Web Workspace
